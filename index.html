@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title> FCC Survey Form</title>
+    </head>
+
+    <body>
+        <h1 id="title">Slumped Awareness Survey</h1>
+    
+        <p id="description">This survery form uses the amount of times 
+            you feel slumped throughout your waking day to help see
+            if most people's circadian rythm is generally out of alignment.</p>
+        <br>
+    
+        <form id="survery-form">
+
+            <div class="input-headings">
+
+            <label id="name-label" for="name">Name</label> 
+            <input id="name" class="form-inputs" type="text" name="name" placeholder="Travi$$ Scott" required> </input>
+            <br>
+            
+
+            <label id="email-label" for="email">Email</label>
+            <input id="email" class="form-inputs" type="email" name="email" placeholder="travisscott@gmail.com" required> </input>
+            <br>
+            
+            
+            <label id="number-label" for="number">Age</label>
+            <input id="number" class="form-inputs" type="number" name="number" placeholder="21" min="11" max="99" required> </input>
+            <br>
+            <br>
+
+            <label id="dropdown-label" for="dropdown">How many times do you feel slumped throughout your <em> waking </em> day?</label>
+            <select id="dropdown" class="form-inputs">
+            <br>
+                <option value="dropdown-label"> 0 times</option>
+                <option value="dropdown-label"> 1-2 times</option>
+                <option value="dropdown-label"> 3-4 times </option>
+                <option value="dropdown-label"> 5 or more times</option>
+            
+            </select>
+            </div>
+            <br>
+            <br>
+
+            <label for="Individual Assumption">Do you think your circadian rythm is out of whack?</label>
+                <br>
+                <br>
+                <input id="Individual Assumption" type="radio" id="Yes" name="Assumption" value="Yes">
+                <label for="Individual Assumption">Yes</label>
+                <br>
+                <input id="Individual Assumption" type="radio" id="No" name="Assumption" value="No">
+                <label for="Individual Assumption">No</label>
+                <br>
+                <input id="Individual Assumption" type="radio" id="Not-Sure" name="Assumption" value="Not-Sure">
+                <label for="Individual Assumption">Not Sure</label>
+                <br>
+                <br>
+
+            <label for="Causes">Which of these do you believe most negatively impacts your 
+                sleep schedule? Check <strong>all</strong> that apply.
+            </label>
+                <br>
+                <br>
+                <input id="Checkbox" type="checkbox" name="Causes" value="Lack_of_sleep">
+                <label for="Causes">Lack of Sleep</label>
+                <br>
+                <input id="Checkbox" type="checkbox" name="Causes" value="Mental_fatigue">
+                <label for="Causes">Mental fatigue</label>
+                <br>
+                <input id="Checkbox" type="checkbox" name="Causes" value="Diet">
+                <label for="Causes">Diet</label>
+                <br>
+                <input id="Checkbox" type="checkbox" name="Causes" value="Phone_usage_before_bed">
+                <label for="Causes">Phone Usage Before Bed</label>
+                <br>
+                <input id="Checkbox" type="checkbox" name="Causes" value="Lack_of_exercise">
+                <label for="Causes">Lack of Exercise</label>
+                <br>
+                <br>
+                <br>
+            
+            <label for="textarea">If there's anything else you want us to know, don't hesitate to add comments below</label>
+            <br>
+            <br>
+                <textarea id="textarea" name="Comments" rows="12" cols="66"></textarea>
+            <br>
+            <br>
+            
+            <button class="submit-button" for="Submit">Submit</button>
+            
+        </form>
+    
+    </body>
+
+</html>

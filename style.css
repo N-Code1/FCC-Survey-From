@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    font-family: 'Staatliches', sans-serif;
+    line-height: 1.4;
+    Background-color: rgba(255, 254, 237, 100%);
+    width: 500px;
+    margin: auto;
+    font-size: 18px;
+}
+
+form {
+    background: rgba(110, 80, 26, 55%);
+    padding: 2.5rem 2.5rem;
+    border-radius: 1rem;
+    width: 500px;
+    margin: auto;
+}
+
+.submit-button {
+    width: 99%;
+    padding: 0.66rem;
+    background: rgba(179, 85, 75, 100%);
+    color: rgba(255, 254, 237, 100%);
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 21px;
+}
+
+.input-headings {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-inputs {
+    display: block;
+    width: 66%;
+    height: 2.1rem;
+    padding: 0.25rem 0.25rem;
+    
+}
